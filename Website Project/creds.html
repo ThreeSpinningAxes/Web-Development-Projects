@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<head>
+<title>CREDIS & REFERENCES - CPS 530 Website Project</title>
+<style>
+body {
+  font-family: Arial, "Times New Roman";
+  margin: 0;
+}
+
+* {box-sizing: border-box;}
+	.col-1 {width: 8.33%;}
+	.col-2 {width: 16.66%;}
+	.col-3 {width: 25%;}
+	.col-4 {width: 33.33%;}
+	.col-5 {width: 41.66%;}
+	.col-6 {width: 50%;}
+	.col-7 {width: 58.33%;}
+	.col-8 {width: 66.66%;}
+	.col-9 {width: 75%;}
+	.col-10 {width: 83.33%;}
+	.col-11 {width: 91.66%;}
+	.col-12 {width: 100%;}
+	[class*="col-"] {float:left; padding:15px;}
+	 .row::after{
+            content:""; 
+            clear:both; 
+            display:table
+        }
+	.header {
+    text-align: center;
+    background: #481d79;
+    color: white;
+    padding: 40px;
+    font-size: 30px;
+    text-shadow: 4px 4px 5px #5f5353;
+    font-family: Arial, "Times New Roman";
+    font-weight: bold;
+
+}
+
+    nav {
+        margin: 0px auto 0;
+        position: relative;
+        width: 100%;
+        height: 50px;
+        background-color: #1d1b1b;
+        font-size: 0;
+    }
+
+    nav a {
+        line-height: 50px;
+        height: 100%;
+        font-size: 15px;
+        display: inline-block;
+        position: relative;
+        z-index: 1;
+        text-decoration: none;
+        text-transform: uppercase;
+        text-align: center;
+        color: white;
+        cursor: pointer;
+    }
+
+	a.currentPage {
+	color: #00FFFF;
+	text-decoration: underline;
+}
+    nav .animation {
+        position: absolute;
+        height: 100%;
+        top: 0;
+        z-index: 0;
+        transition: all .3s ease 0s;
+        border-radius: 8px;
+    }
+
+    a:nth-child(1) {
+        width: 14%;
+    }
+
+    a:nth-child(2) {
+        width: 16.66%;
+    }
+
+    a:nth-child(3) {
+        width: 16.66%;
+    }
+
+    a:nth-child(4) {
+        width: 16.66%;
+    }
+
+    a:nth-child(5) {
+        width: 16.66%;
+    }
+
+    a:nth-child(6) {
+        width: 19.36%;
+    }
+
+    nav .start-intro, a:nth-child(1):hover~.animation {
+        width: 14%;
+        left: 0;
+        background-color: #b9b3b3;
+    }
+
+    nav .start-installation, a:nth-child(2):hover~.animation {
+        width: 16.66%;
+        left: 14%;
+        background-color: #b9b3b3;
+    }
+
+    nav .start-tut, a:nth-child(3):hover~.animation {
+        width: 16.66%;
+        left: 30.66%;
+        background-color: #b9b3b3;
+    }
+
+    nav .start-webpage, a:nth-child(4):hover~.animation {
+        width: 16.66%;
+        left: 47.33%;
+        background-color: #b9b3b3;
+    }
+
+    nav .start-conclusion, a:nth-child(5):hover~.animation {
+        width: 16.66%;
+        left: 64%;
+        background-color: #b9b3b3;
+    }
+
+    nav .start-creds, a:nth-child(6):hover~.animation {
+        width: 19.36%;
+        left: 80.64%;
+        background-color: #b9b3b3;
+    }	
+
+.center {
+	text-align:center;
+}
+
+
+div.spacing {
+	
+	margin: 70px;
+	margin-top: 150px;
+}
+
+div.persons {
+	text-align:center;
+}
+
+p.personInfo {
+	text-align: left;
+	padding: 10px;
+	margin: 20px 100px 100px 100px;
+	line-height: 1.5 ;
+}
+
+div.references {
+	margin-left: 300px;
+	margin-right: 300px;
+}
+
+p.references {
+	margin: 20px;
+}
+
+div.footer {
+	margin: 100px;
+	background: #483D8B;
+}
+</style>
+</head>
+
+<div class="header">
+	<h1 style="text-align: center;font-size: 40px;font-family: Arial;"> ASP.NET and ANGULAR </h1>
+</div>
+
+
+<nav >
+	<a href="http://www.t10huynh.somee.com/project/home.html">HOME</a>
+	<a href="http://www.t10huynh.somee.com/project/installation.html">INSTALLATION</a>
+	<a href="http://www.t10huynh.somee.com/project/tutorial.html">TUTORIAL</a>
+	<a href="http://cps530termproject.somee.com">DEMO PAGE</a>
+	<a href="http://www.t10huynh.somee.com/project/conclusion.html">CONCLUSION</a>
+	<a class="currentPage" href="http://www.t10huynh.somee.com/project/creds.html">CREDITS & REFERENCES</a>
+
+  <div class="animation start-home"></div>
+
+</nav>
+
+<div class="spacing">
+	<h1 class="center" style="color:#483D8B;font-size:50px"> Our Website Development Team </h1> <hr>
+</div>
+
+<div class="row">
+	
+	<div class="col-4 persons">
+		<img  src="https://www.pngitem.com/pimgs/m/504-5040528_empty-profile-picture-png-transparent-png.png" width="60%">
+		<h2> Devraj Chudasama </h2> <hr style="width:50%;margin:0 auto;">
+		
+		<p class="personInfo" > Undergraduate student currently studying computer science at Ryerson university. Responsible for
+			creating the credits and references webpage (page 6), and the framework installation tutorial webpage (page 2).	</p>
+	</div>
+	
+	<div class="col-4 persons">
+		<img  src="https://www.pngitem.com/pimgs/m/504-5040528_empty-profile-picture-png-transparent-png.png" width="60%">
+		<h2> Anil Tustas </h2> <hr style="width:50%;margin:0 auto;">
+		<p class="personInfo"> Undergraduate student currently studying computer science at Ryerson university. Responsible for creating the 
+		"How to make a Beutiful webpage" tutorial page (page 3) and the page representing the webpage as a result of that tutorial (page 4).	</p>
+	</div>
+	
+	<div class="col-4 persons">
+		<img  src="https://www.pngitem.com/pimgs/m/504-5040528_empty-profile-picture-png-transparent-png.png" width="60%">
+		<h2> Thanh Huynh </h2> <hr style="width:50%;margin:0 auto;">
+		<p class="personInfo"> Undergraduate student currently studying computer science at Ryerson university. Responsible for creating the 
+		summary snapshot presentations of the frontend and backend frameworks used for this webpage (page 1). Also 
+		responsible for creating the chosen frontend/backend framework discussion and analysis page (page 5).	</p>
+	</div>
+	
+</div>
+
+
+<div class="spacing">
+
+<hr>
+
+<h1 style="text-align:center;margin: 50px;"> References </h1>
+<div class="references">
+	
+	<div> 
+		<h3 style="margin-top: 80px;"> Image References </h3>
+		<p style='text-align:left; line-height:2;font-style:"Times New Roman";'> 
+		https://www.pngitem.com/pimgs/m/504-5040528_empty-profile-picture-png-transparent-png.png
+		</p>
+		
+		<p style='text-align:left; line-height:2;font-style:"Times New Roman";'> 
+		https://media.geeksforgeeks.org/wp-content/uploads/20190521154649/run-vs-exe-file.jpg
+		</p>
+		
+		<p style='text-align:left; line-height:2;font-style:"Times New Roman";'> 
+		https://cdn.britannica.com/q:60/82/94382-050-20CF23DB/Great-Wall-of-China-Beijing.jpg
+		</p>
+		
+		<p style='text-align:left; line-height:2;font-style:"Times New Roman";'> 
+		https://cdn.britannica.com/q:60/49/61349-050-9FFBEB28/El-Castillo-pyramid-plaza-Toltec-state-Yucatan.jpg
+		</p>
+		
+		<p style='text-align:left; line-height:2;font-style:"Times New Roman";'> 
+		https://cdn.britannica.com/q:60/25/153525-050-FC43840D/Khaznah-Petra-Jordan.jpg
+		</p>
+		
+		<p style='text-align:left; line-height:2;font-style:"Times New Roman";'> 
+		https://cdn.britannica.com/q:60/30/94530-050-99493FEA/Machu-Picchu.jpg
+		</p>
+		
+		<p style='text-align:left; line-height:2;font-style:"Times New Roman";'> 
+		https://cdn.britannica.com/q:60/54/150754-050-5B93A950/statue-Christ-the-Redeemer-Rio-de-Janeiro.jpg
+		</p>
+		
+		<p style='text-align:left; line-height:2;font-style:"Times New Roman";'> 
+		https://cdn.britannica.com/q:60/36/162636-050-932C5D49/Colosseum-Rome-Italy.jpg
+		</p>
+		
+		<p style='text-align:left; line-height:2;font-style:"Times New Roman";'> 
+		https://cdn.britannica.com/q:60/86/170586-050-AB7FEFAE/Taj-Mahal-Agra-India.jpg
+		</p>
+		
+	</div>
+
+	<div style="margin-top:50px;">
+		<h3> Website References </h3>
+		<p style='text-align:left; line-height:2;font-style:"Times New Roman";'> 
+		https://www.visualstudio.com/downloads/
+		</p>
+		
+		<p style='text-align:left; line-height:2;font-style:"Times New Roman";'> 
+		https://www.geeksforgeeks.org/how-to-install-and-setup-visual-studio-for-asp-net/
+		</p>
+		
+		<p style='text-align:left; line-height:2;font-style:"Times New Roman";'> 
+		https://devblogs.microsoft.com/premier-developer/getting-started-with-node-js-angular-and-visual-studio-code/
+		</p>
+		
+		<p style='text-align:left; line-height:2;font-style:"Times New Roman";'> 
+		https://angular.io/
+		</p>
+		
+		<p style='text-align:left; line-height:2;font-style:"Times New Roman";'> 
+		https://dotnet.microsoft.com/apps/aspnet
+		</p>
+		
+		<p style='text-align:left; line-height:2;font-style:"Times New Roman";'> 
+		https://www.britannica.com/
+		</p>
+		
+		<p style='text-align:left; line-height:2;font-style:"Times New Roman";'> 
+		https://insights.stackoverflow.com/survey/2020#most-loved-dreaded-and-wanted 
+		</p>
+		
+		<p style='text-align:left; line-height:2;font-style:"Times New Roman";'> 
+		https://merehead.com/blog/angular-vs-react-vs-vue-best-choice-2021/
+		</p>
+		
+		<p style='text-align:left; line-height:2;font-style:"Times New Roman";'> 
+		https://www.simform.com/blog/angular-vs-react/
+		</p>
+		
+		<p style='text-align:left; line-height:2;font-style:"Times New Roman";'> 
+		https://parallelstaff.com/angular-framework-dead-5-facts-opposite/
+		</p>
+		
+		<p style='text-align:left; line-height:2;font-style:"Times New Roman";'> 
+		https://trio.dev/blog/companies-use-angular
+		</p>
+		
+		<p style='text-align:left; line-height:2;font-style:"Times New Roman";'> 
+		https://www.quora.com/Why-is-the-learning-curve-for-Angular-so-steep
+		</p>
+		
+		<p style='text-align:left; line-height:2;font-style:"Times New Roman";'> 
+		https://dotnet.microsoft.com/learn/aspnet/what-is-aspnet
+		</p>
+		
+		<p style='text-align:left; line-height:2;font-style:"Times New Roman";'> 
+		https://www.software-developer-india.com/advantages-and-disadvantages-of-asp-net/
+		</p>
+		
+		<p style='text-align:left; line-height:2;font-style:"Times New Roman";'> 
+		https://www.wakefly.com/blog/what-is-asp-net-and-why-should-i-use-it/
+		</p>
+		
+		<p style='text-align:left; line-height:2;font-style:"Times New Roman";'> 
+		https://docs.microsoft.com/en-us/aspnet/overview
+		</p>
+		
+		<p style='text-align:left; line-height:2;font-style:"Times New Roman";'> 
+		https://stackshare.io/asp-net
+		</p>
+		
+
+	</div>
+	
+</div>
+
+</div>
+
+
+</body>
+
+</html>
