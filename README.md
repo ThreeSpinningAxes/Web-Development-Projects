@@ -3,7 +3,7 @@ All my web dev projects and labs that I have done.
 
 Links to the websites of each lab are in their respective README.txt files.
 
-The best labs in my opinion would be my lab 5 part 2 (SQL and PHP), lab 4 (Boostrap and Responsive web design), and lab 7 (Jscript and JSON).
+The best labs in my opinion would be my lab 5 part 2 (SQL and PHP), lab 3 (Boostrap and Responsive web design), and lab 7 (Jscript and JSON).
 
 Info on other labs:
 
